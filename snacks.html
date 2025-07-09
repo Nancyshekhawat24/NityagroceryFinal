@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drinks - Nitya Grocery</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .item {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      width: 180px;
+      text-align: center;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .item img {
+      width: 100px;
+      height: 130px;
+      object-fit: cover;
+    }
+    .btn {
+      background-color: green;
+      color: white;
+      padding: 8px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+    }
+       
+    .back-home{
+
+margin-left: 60px;
+border-radius: 10px;
+background-color: green;
+color: white;
+height: 15%;
+width: 10%;
+display: inline-block;
+text-align: center;
+text-decoration: no;
+}
+
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-home">Back to Home</a>
+
+
+  <h2>Snacks - Nitya Grocery</h2>
+  <div class="grid">
+    <div class="item">
+      <img src="snacks/ACT popcorn .jpg" alt="popcorn ">
+      <p>ACT popcorn</p>
+      <p>₹40</p>
+      <button class="btn" onclick="addToCart('ACT popcorn', 40,)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="snacks/aloo bhujia.jpg" alt="aloobhujia">
+      <p>aloo bhujia 40gm </p>
+      <p>₹10</p>
+      <button class="btn" onclick="addToCart('aloo bhujiya', 10)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="snacks/ALOO wafers.jpg" alt="Aloo waffers">
+      <p>Aloo Waffers 40gm</p>
+      <p>₹25</p>
+      <button class="btn" onclick="addToCart('Aloo waffers', 25)">Add to Cart</button>
+    </div>
+
+
+    <div class="item">
+        <img src="snacks/Bicano mixture.jpg" alt="mixture">
+        <p>Bicano mixture 100gm</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('Bicano mixture 100gm', 40)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/Bingo nachos.jpg" alt="nachos">
+        <p>Bingo Nachos 42gm</p>
+        <p>₹25</p>
+        <button class="btn" onclick="addToCart('Bingo Nachos 42gm', 25)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/Butter popcorn.jpg" alt="butter popcorn">
+        <p>Butter Popcorn 47gm</p>
+        <p>₹25</p>
+        <button class="btn" onclick="addToCart('Butter Popcorn 47gm', 25)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/Cassava chips.jpg" alt="casava chips">
+        <p>Cassava chips 42gm </p>
+        <p>₹20</p>
+        <button class="btn" onclick="addToCart('Cassaa chips', 20)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/cheese puffcorn.jpg" alt="cheese puffcorn">
+        <p>Cheese Puffcorn 45 gm</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('cheese puffcorn 45 gm', 40)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/Cheetos magic balls.jpg" alt="cheetos">
+        <p>Cheetos magic balls 84gm</p>
+        <p>₹35</p>
+        <button class="btn" onclick="addToCart('cheetos magic balls', 35)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/cornitos sizzlin jalepano.jpg" alt="cornitos">
+        <p>Cornitos sizzlin jalepano </p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('Cornitos sizzlin jalepao', 40)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/cornitos tikka masala.jpg" alt="cornitos tikka masala ">
+        <p>Cornitos tikka masala 150gm </p>
+        <p>₹90</p>
+        <button class="btn" onclick="addToCart('cornitos tikka masala', 90)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/craxx aloo bhujia.jpg" alt=" craxx aloo bhujiya">
+        <p>craxx aloo bhujiya 160gm</p>
+        <p>₹55</p>
+        <button class="btn" onclick="addToCart('Craxx aloo bhujiya 160gm', 55)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/Crispz.jpg" alt="Crispzz">
+        <p>Crispzz 47gm</p>
+        <p>₹20</p>
+        <button class="btn" onclick="addToCart('crispzz 47 gm ', 20)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/crunchy pipes.jpg" alt="crunchy pipes">
+        <p>crunchy pipes  </p>
+        <p>₹10</p>
+        <button class="btn" onclick="addToCart(' crunchy pipes 10', 50)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/CURLS.jpg" alt="curls">
+        <p>Curls 47gm</p>
+        <p>₹10</p>
+        <button class="btn" onclick="addToCart('Curls 47gm ', 10)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/devil popcorn.jpg" alt="devil popcorn ">
+        <p>devil popcorn 50gm</p>
+        <p>₹39</p>
+        <button class="btn" onclick="addToCart('Devil popcorn 50gm', 39)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/doritos nacho cheese.jpg" alt="doritos ">
+        <p>Doritos nacho cheese 83gm </p>
+        <p>₹45</p>
+        <button class="btn" onclick="addToCart('Doritos nacho cheese 83gm', 45)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/doritos sweet chili.jpg" alt="doritos sweet chillie">
+        <p>Doritos sweet chillie 150gm</p>
+        <p>₹89</p>
+        <button class="btn" onclick="addToCart('Doritos sweet chillie 150gm', 89)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/fritzz.jpg" alt="fritzz">
+        <p>Fritzz 82gm  </p>
+        <p>₹39</p>
+        <button class="btn" onclick="addToCart('Fritzz 82', 39)">Add to Cart</button>
+      </div>
+
+
+
+      <div class="item">
+        <img src="snacks/fun fries.jpg" alt="fun fries">
+        <p>Fun fries 82gm </p>
+        <p>₹36</p>
+        <button class="btn" onclick="addToCart('Fun Fries 82gm', 36)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/Fun wheels.jpg" alt="fun wheels">
+        <p>Fun wheels 82gm</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('Fun wheels 82gm', 40)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/green lays.jpg" alt="green lays">
+        <p>green lays 48gm</p>
+        <p>₹20</p>
+        <button class="btn" onclick="addToCart('green lays 48gm', 20)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/Haldiram sev.jpg" alt="sev ">
+        <p>Haldiram sev 200gm</p>
+        <p>₹100</p>
+        <button class="btn" onclick="addToCart('Haldiram sev 200gm', 100)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="snacks/kaju mixture.jpg" alt="kaju mixture">
+        <p>Kaju mixture 200gm</p>
+        <p>₹90</p>
+        <button class="btn" onclick="addToCart('kaju mixture 200gm', 90)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/kellogs choco fills.jpg" alt="kellogs">
+        <p>kellogs choco fills  </p>
+        <p>₹50</p>
+        <button class="btn" onclick="addToCart('kellogs choco fills', 50)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="snacks/Kurkure (Masala munch).jpg" alt="kurkure">
+        <p>kukuure 75gm</p>
+        <p>₹20</p>
+        <button class="btn" onclick="addToCart('kurkure masala munch 75gm', 20)">Add to Cart</button>
+      </div>
+
+    <div class="item">
+      <img src="snacks/lays (blue).jpg" alt="lays ">
+      <p>Lays 68gm</p>
+      <p>₹20</p>
+      <button class="btn" onclick="addToCart('lays 68gm', 20)">Add to Cart</button>
+    </div>
+  </div>
+
+  <script>
+    function addToCart(name, price) {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      cart.push({ name, price });
+      localStorage.setItem('cart', JSON.stringify(cart));
+      alert(name + " added to cart!");
+    }
+  </script>
+
+</body>
+</html>

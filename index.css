@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .logo i {
+    color: green;
+    margin-right: 8px;
+  }
+  
+  .navbar a {
+    margin: 0 12px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navbar a:hover {
+    color: green;
+  }
+  
+  .icons i {
+    font-size: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .icons i:hover {
+    color: green;
+  }
+
+
+
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f0f9f0;
+    flex-wrap: wrap;
+  }
+  
+  .home .content {
+    flex: 1 1 45%;
+  }
+  
+  .home .content h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .home .content h1 span {
+    color: green;
+  }
+  
+  .home .content p {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .home .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid green;
+    color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .home .btn:hover {
+    background: green;
+    color: #fff;
+  }
+  
+  .home .image {
+    flex: 1 1 45%;
+    text-align: center;
+    height: 100%;
+
+  }
+  
+  .home .image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+
+  /*our features*/
+
+  .features {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .features .heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .features .heading span {
+    background: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .features .box-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .features .box {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  .features .box img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .features .box h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .features .box p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .features .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid green;
+    color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .features .btn:hover {
+    background: green;
+    color: white;
+  }
+  
+  /* Hover Effect on Box */
+  .features .box:hover {
+    border-color: green;
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 128, 0, 0.2);
+  }
+
+
+
+  
+  /*our products*/
+
+  .products {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .products .heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .products .heading span {
+    background: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .products .box-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .products .box {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  .products .box img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .products .box h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .products .box p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .products .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid green;
+    color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .products .btn:hover {
+    background: green;
+    color: white;
+  }
+  
+  /* Hover Effect on Box */
+  .products .box:hover {
+    border-color: green;
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 128, 0, 0.2);
+  }
+
+
+  
+  
+  /*our Discounts*/
+
+  .discounts {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .discounts .heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .discounts .heading span {
+    background: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .discounts .box-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .discounts .box {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  .discounts .box img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .discounts .box h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  
+  .discounts .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid green;
+    color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .discounts .btn:hover {
+    background: green;
+    color: white;
+  }
+  
+  /* Hover Effect on Box */
+  .discounts .box:hover {
+    border-color: green;
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 128, 0, 0.2);
+  }
+
+
+  /*blog section*/
+
+  .blogs {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .blogs .heading {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .blogs .heading span {
+    background-color: green;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .blogs .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .blogs .box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+  }
+  
+  .blogs .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .blogs .box .content {
+    padding: 20px;
+  }
+  
+  .blogs .box h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blogs .box span {
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .blogs .box p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .blogs .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    color: green;
+    border: 2px solid green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .blogs .btn:hover {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .blogs .box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,128,0,0.2);
+  }
+
+
+  /*footer */
+
+
+  .footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .footer .box {
+    flex: 1 1 200px;
+    text-align: left;
+  }
+  
+  .footer .box h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .footer .box p,
+  .footer .box a {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.6;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+  }
+  
+  .footer .box a:hover {
+    color: green;
+  }
+  
+  .footer .credit {
+    border-top: 1px solid #555;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .footer .credit span {
+    color: green;
+  }
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresh and Organic - Nitya Grocery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fff9;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    h1 {
+      color: green;
+    }
+    .slider {
+      position: relative;
+      max-width: 100%;
+      height: 400px;
+      overflow: hidden;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 9s infinite;
+    }
+    .slides img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      33% { transform: translateX(-100%); }
+      66% { transform: translateX(-200%); }
+      100% { transform: translateX(0); }
+    }
+    p {
+      font-size: 18px;
+      text-align: justify;
+      line-height: 50px;
+      gap: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fresh and Organic</h1>
+
+    <div class="slider">
+      <div class="slides">
+        <img src="slideimg/veg1.jpg" alt="Fresh Veggies">
+        <img src="slideimg/fruits1.jpg" alt="Organic Fruits">
+        <img src="slideimg/veg1.jpg" alt="Farm Fresh">
+      </div>
+    </div>
+
+    <p>At Nitya Grocery, we believe in delivering only the freshest and most organic produce to your doorstep. Our vegetables and fruits are sourced directly from local farms without any harmful chemicals.</p>
+    <p>We are committed to quality, nutrition, and sustainability. Shop with us for seasonal, farm-fresh items that are as tasty as they are healthy!</p>
+    <p>At Nitya Grocery, we take pride in offering fresh and organic produce that comes straight from the heart of nature. Our fruits and vegetables are carefully handpicked from trusted local farmers who grow their crops using sustainable and eco-friendly methods, without any harmful chemicals, pesticides, or synthetic fertilizers. We believe that what you put on your plate matters, and that's why we ensure that every item you receive is packed with nutrients, taste, and the freshness you deserve.
+
+      Eating fresh and organic isn't just about taste—it's a lifestyle choice that supports better health, a stronger immune system, and a cleaner planet. Our produce is harvested at peak ripeness, ensuring that you get the most flavor and nutrition out of every bite. Whether you're cooking a hearty meal for your family or whipping up a smoothie, you’ll notice the difference in quality immediately.
+      
+      We work closely with farms that share our passion for clean, organic living. By supporting them, we also help promote local economies and reduce the carbon footprint associated with long-distance food transportation. At Nitya Grocery, our mission is to bring farm-fresh goodness right to your doorstep, so you and your loved ones can enjoy food the way nature intended—pure, fresh, and wholesome.
+      
+      
+      ---
+      
+      Want this included in your page right below the slider, or should I update the whole HTML file for you with it already added?</p>
+  </div>
+</body>
+</html>

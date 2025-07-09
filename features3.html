@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Easy Payments - Nitya Grocery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+      color: #333;
+      animation: fadeIn 1.5s ease;
+    }
+
+    header {
+      background: linear-gradient(to right, #4caf50, #81c784);
+      padding: 40px 20px;
+      color: white;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 20px;
+      padding: 30px 40px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease;
+    }
+
+    .content img {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 12px;
+      animation: zoomIn 1.2s ease;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-top: 20px;
+    }
+
+    .back-home {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 28px;
+      font-size: 18px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .back-home:hover {
+      background-color: #388e3c;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.9); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      .content {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Easy Payments</h1>
+    <p class="tagline">Pay quickly and securely with multiple options</p>
+  </header>
+
+  <div class="content">
+    <img src="slideimg/featureimg.jpg" alt="Easy Payments Image" />
+
+    <p>
+      At Nitya Grocery, we understand that a seamless checkout experience is essential for customer satisfaction. That’s why we’ve integrated a wide range of secure and user-friendly payment methods. From UPI to credit/debit cards and net banking to mobile wallets — you can choose the option that suits you best.
+    </p>
+
+    <p>
+      Our system is PCI-DSS compliant and employs SSL encryption to ensure that all transactions are safe and confidential. You can shop worry-free knowing your financial data is always protected.
+    </p>
+
+    <p>
+      Whether you’re ordering for a quick grocery top-up or stocking up for the week, the checkout process is designed to be smooth and stress-free. Instant payment confirmations, real-time tracking, and secure refunds are all part of the Nitya promise.
+    </p>
+
+    <p>
+      We continuously update and optimize our payment infrastructure to support the latest technologies and user needs. Because we believe payments should be as easy as shopping itself.
+    </p>
+
+    <a class="back-home" href="index.html">← Back to Home</a>
+  </div>
+
+</body>
+</html>

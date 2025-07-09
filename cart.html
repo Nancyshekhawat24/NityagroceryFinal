@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f7f7f7;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background: #28a745;
+      color: white;
+    }
+    button {
+      background: #28a745;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 5px;
+    }
+    .remove-btn {
+      background: #dc3545; /* Red color for Remove button */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2 style="text-align:center;">Your Cart</h2>
+  <table id="cartTable">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Price (₹)</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <div style="text-align:center;">
+    <button onclick="proceedToCheckout()">Proceed to Checkout</button>
+  </div>
+</div>
+
+<script>
+  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+  const tbody = document.querySelector("#cartTable tbody");
+  
+  function renderCart() {
+      tbody.innerHTML = '';
+      cart.forEach((product, index) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+              <td>${product.name}</td>
+              <td>${product.price}</td>
+              <td><button class="remove-btn" onclick="removeItem(${index})">Remove</button></td>
+          `;
+          tbody.appendChild(tr);
+      });
+  }
+  
+  function removeItem(index) {
+      cart.splice(index, 1);
+      localStorage.setItem('cart', JSON.stringify(cart));
+      renderCart();
+  }
+  
+  function proceedToCheckout() {
+      if (cart.length === 0) {
+          alert("Your cart is empty! Please add some items before checkout.");
+          return;
+      }
+      const cartData = encodeURIComponent(JSON.stringify(cart));
+      localStorage.removeItem('cart'); // *Clear cart after proceed*
+      window.location.href = "order_form.php?cart=" + cartData;
+  }
+  
+  renderCart();
+  </script>
+
+</body>
+</html>

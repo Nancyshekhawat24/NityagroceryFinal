@@ -1,0 +1,65 @@
+.why-nitya {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .why-nitya h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .benefit-box {
+    background: white;
+    border: 1px solid yellowgreen;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .benefit-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefit-box h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .benefit-box p {
+    color: #555;
+    font-size: 0.95rem;
+  }
+
+  .aboutus{
+    height: 30%;
+    width: 90%;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: #4CAF50;
+    text-transform: none;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+    margin-left: 40px;
+    margin-top: 35px;
+    transition: 0.3s ease;
+    gap: 20px;
+
+
+  }
+  .aboutus:hover{
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.03);
+  }

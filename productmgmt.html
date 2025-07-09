@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Add, Show, Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            min-height: 100vh;
+            background-image: url(bgadmin.jpg );
+            background-size: cover;            
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            color: white;
+        }
+        h1 {
+            margin-top: 70px;
+            color: rgb(23, 23, 23);
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 15px 15px 20px white;
+        }
+        .button-group {
+            margin-top: 150px;
+            display: flex;
+            gap: 10px;
+        }
+        button {
+            text-decoration:none;
+            padding: 12px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor:pointer;
+            background-color: green;
+            color: rgb(255, 255, 255);
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+        #itemList {
+            margin-top: 30px;
+            width: 300px;
+        }
+        .back{
+            margin-right: 90%;
+        }
+    </style>
+</head>
+<body>
+    <button class="back" onclick="location.href='index.html'"> Go To Home</button></div><br><br>
+
+
+    <h1>Real-Time Products Management</h1>
+
+    <div class="button-group">
+        <button onclick="location.href='crud.php'"> Fruits</button>
+        <button onclick="location.href='vegetablescrud.php'"> Vegetables</button>
+        <button onclick="location.href='drinkscurd.php'"> Drinks</button>
+        <button onclick="location.href='snackscrud.php'"> Snacks</button>
+        <button onclick="location.href='dairyproductcrud.php'"> Dairy</button></div><br><br>
+        <div>
+        <button onclick="location.href='admin_order.php'"> Customer Orders Details</button>
+        </div>
+    </div>
+
+
+
+   
+</body>
+</html>

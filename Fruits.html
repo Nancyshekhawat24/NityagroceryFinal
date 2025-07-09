@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drinks - Nitya Grocery</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .item {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      width: 180px;
+      text-align: center;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .item img {
+      width: 100px;
+      height: 130px;
+      object-fit: cover;
+    }
+    .btn {
+      background-color: green;
+      color: white;
+      padding: 8px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+    }
+    .home{
+      align-self: center;
+      width: 25%;
+    }
+    .cart{
+      align-self: center;
+    width: 25%;
+    }   
+
+    .buttons {
+      background-color: green;
+      color: white;
+      padding: 8px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+    }
+    .back-home{
+
+margin-left: 60px;
+border-radius: 10px;
+background-color: green;
+color: white;
+height: 15%;
+width: 10%;
+display: inline-block;
+text-align: center;
+text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-home">Back to Home</a>
+
+  <h2>Fruits - Nitya Grocery</h2>
+  <div class="grid">
+    <div class="item">
+      <img src="image.jpg/apple.jpeg" alt="apple ">
+      <p>Apple 1kg</p>
+      <p>₹80</p>
+      <button class="btn" onclick="addToCart('Apple 1kg', 80,)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="image.jpg/bnana.jpeg" alt="bnana">
+      <p>Banana 12pcs </p>
+      <p>₹60</p>
+      <button class="btn" onclick="addToCart('banana 12pcs', 60)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="image.jpg/guava.jpg" alt="guava ">
+      <p>Guava 1kg</p>
+      <p>₹80</p>
+      <button class="btn" onclick="addToCart('Guava 1kg ', 80)">Add to Cart</button>
+    </div>
+
+
+    <div class="item">
+        <img src="image.jpg/grapes.jpg" alt="grapes">
+        <p>Grapes 1kg</p>
+        <p>₹140</p>
+        <button class="btn" onclick="addToCart('Grapes 1kg', 140)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/mango.jpg" alt="mango">
+        <p>Mango 1kg</p>
+        <p>₹125</p>
+        <button class="btn" onclick="addToCart('Mango 1kg', 125)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/pomegranate.jpg" alt="pomegranate">
+        <p>Pomegranate 1kg</p>
+        <p>₹180</p>
+        <button class="btn" onclick="addToCart('pomegranate 1kg', 185)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/blackthorn.jpg" alt="blackthorn ">
+        <p>Blackthorn 1kg </p>
+        <p>₹100</p>
+        <button class="btn" onclick="addToCart('Blackthorn 1kg', 100)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/blueberry.jpeg" alt="blueberry ">
+        <p>Blue berry 1kg</p>
+        <p>₹120</p>
+        <button class="btn" onclick="addToCart('Blue Berry 1kg', 120)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/raspberry-7313702_1280.jpg" alt="raspberry">
+        <p>Raspberry 1kg</p>
+        <p>₹135</p>
+        <button class="btn" onclick="addToCart('Raspberry 1kg', 135)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/redberry.jpeg" alt="redberry">
+        <p>Red Berry 1kg </p>
+        <p>₹140</p>
+        <button class="btn" onclick="addToCart('Red Berry 1kg', 140)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/avacado 2.jpeg" alt="avacado ">
+        <p>Avacado 250gm/ </p>
+        <p>₹140</p>
+        <button class="btn" onclick="addToCart('Avacado 250gm', 140)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/cherries.jpg" alt="cherries">
+        <p>Cherries 1kg</p>
+        <p>₹155</p>
+        <button class="btn" onclick="addToCart('Cherries 1kg', 155)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/coconut.jpeg" alt="coconut">
+        <p> water Coconut 1pc</p>
+        <p>₹60</p>
+        <button class="btn" onclick="addToCart('Water Coconut 1pc ', 60)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/custard apple.jpg" alt="custard apple">
+        <p>Custard Apple 1kg  </p>
+        <p>₹110</p>
+        <button class="btn" onclick="addToCart('Custard Apple 1kg', 110)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="image.jpg/dragonfruit.jpeg" alt="dragonfruit">
+        <p>Dragon Fruit 1pc</p>
+        <p>₹140</p>
+        <button class="btn" onclick="addToCart('dragonfruit 1pc ', 140)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/kiwi2.jpeg" alt="kiwi2 ">
+        <p>Kiwi 1pc</p>
+        <p>₹39</p>
+        <button class="btn" onclick="addToCart('Kiwi 1pc', 39)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/litchi.jpeg" alt="litchi ">
+        <p>Litchi 1kg </p>
+        <p>₹145</p>
+        <button class="btn" onclick="addToCart('Litchi 1kg', 145)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/orange (2).jpg" alt="Orange">
+        <p>Orange 1kg</p>
+        <p>₹49</p>
+        <button class="btn" onclick="addToCart('Orange 1kg', 49)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/papaya.jpg" alt="papaya">
+        <p>papaya 1kg  </p>
+        <p>₹39</p>
+        <button class="btn" onclick="addToCart('Papaya 1kg', 39)">Add to Cart</button>
+      </div>
+
+
+
+      <div class="item">
+        <img src="image.jpg/pineapple.jpeg" alt="pineapple">
+        <p>pineapple 1kg </p>
+        <p>₹136</p>
+        <button class="btn" onclick="addToCart('pineapple 1kg', 136)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/plums-2730726_1280.jpg" alt="plums">
+        <p>Plums 1kg</p>
+        <p>₹140</p>
+        <button class="btn" onclick="addToCart('Plums 1kg', 140)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/watermelon.jpg" alt="watermelon">
+        <p>watermelon 1kg</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('watermelon 1kg', 40)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="image.jpg/pexels-janetrangdoan-1132047.jpg" alt="mixed fruits ">
+        <p>Mixed Fruits 1kg</p>
+        <p>₹150</p>
+        <button class="btn" onclick="addToCart('Mixed Fruits 1kg ', 150)">Add to Cart</button>
+      </div>
+
+
+  </div>
+
+  <script>
+    function addToCart(name, price, quantity) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push({name, price, quantity});
+        localStorage.setItem('cart', JSON.stringify(cart));
+        alert('Product Added to Cart!');
+    }
+    </script>
+
+</body>
+</html>

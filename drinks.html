@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drinks - Nitya Grocery</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .item {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      width: 180px;
+      text-align: center;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .item img {
+      width: 100px;
+      height: 130px;
+      object-fit: cover;
+    }
+    .btn {
+      background-color: green;
+      color: white;
+      padding: 8px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+    }
+
+       
+    .back-home{
+
+margin-left: 60px;
+border-radius: 10px;
+background-color: green;
+color: white;
+height: 15%;
+width: 10%;
+display: inline-block;
+text-align: center;
+text-decoration: no;
+}
+
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-home">Back to Home</a>
+
+
+
+  <h2>Drinks - Nitya Grocery</h2>
+  <div class="grid">
+    <div class="item">
+      <img src="drinks img/cocacola cane.jpg" alt="Coca Cola">
+      <p>Coca Cola 500ml</p>
+      <p>₹40</p>
+      <button class="btn" onclick="addToCart('Coca Cola 500ml', 40,)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="drinks img/pepsi.jpg" alt="Pepsi">
+      <p>Pepsi 500ml</p>
+      <p>₹38</p>
+      <button class="btn" onclick="addToCart('Pepsi 500ml', 38)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="drinks img/frooti.jpg" alt="Frooti">
+      <p>Frooti 250ml</p>
+      <p>₹25</p>
+      <button class="btn" onclick="addToCart('Frooti 250ml', 25)">Add to Cart</button>
+    </div>
+
+
+    <div class="item">
+        <img src="drinks img/fresca mango.jpg" alt="fresca">
+        <p>fresca 750ml</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('Frooti 250ml', 25)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/amul kool badam.jpg" alt="amul">
+        <p>amul kool badam 250ml</p>
+        <p>₹45</p>
+        <button class="btn" onclick="addToCart('amul kool badam 250ml', 25)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/amul kool kesar.jpg" alt="amul">
+        <p>amul kesar 250ml</p>
+        <p>₹45</p>
+        <button class="btn" onclick="addToCart('amul kesar 250ml', 25)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/appy fizz bot.jpg" alt="fizz">
+        <p>fizz 500ml</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('fizz 500ml', 40)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/bisleri.jpg" alt="bisleri">
+        <p>bisleri 750ml</p>
+        <p>₹25</p>
+        <button class="btn" onclick="addToCart('bisleri 750ml', 25)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/bisleri2.jpg" alt="bisleri">
+        <p>bisleri 2ltr</p>
+        <p>₹35</p>
+        <button class="btn" onclick="addToCart('bisleri 2ltr', 35)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/amul lassi.jpg" alt="lassi">
+        <p>amul lassi 250ml</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('amul lassi 250ml', 40)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/amul masti spiced.jpg" alt="amul masti">
+        <p>amul masti masala 250ml</p>
+        <p>₹25</p>
+        <button class="btn" onclick="addToCart('amul masti 250ml', 25)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/cocacola zero sugarr.jpg" alt="cocalcola zero sugar">
+        <p>cocacola zero sugar 250ml</p>
+        <p>₹50</p>
+        <button class="btn" onclick="addToCart('cocacola zero sugar 250ml', 25)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/coke no sugar .jpg" alt="coke no sugar">
+        <p>coce no sugar 250ml</p>
+        <p>₹50</p>
+        <button class="btn" onclick="addToCart('coke no sugar 250ml', 50)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/fanta.jpg" alt="fanta">
+        <p>fanta 1ltr</p>
+        <p>₹50</p>
+        <button class="btn" onclick="addToCart('Fanta 1ltr', 50)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/fresca mango.jpg" alt="fresca">
+        <p>fresca mango 1ltr</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('Fresca mango 1ltr', 40)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/ginger beer.jpg" alt="ginger beer">
+        <p>ginger beer 750ml</p>
+        <p>₹85</p>
+        <button class="btn" onclick="addToCart('ginger beer 750ml', 85)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/gulucon-d orange.jpg" alt="gulucon-d ">
+        <p>gulucon-d orange 250ml</p>
+        <p>₹25</p>
+        <button class="btn" onclick="addToCart('gulucon-d orange 250ml', 25)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/ice.jpg" alt="ice">
+        <p>ice 250ml</p>
+        <p>₹35</p>
+        <button class="btn" onclick="addToCart('ice 250ml', 35)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/limca.jpg" alt="limca">
+        <p>limca 750ml</p>
+        <p>₹45</p>
+        <button class="btn" onclick="addToCart('limca 750ml', 45)">Add to Cart</button>
+      </div>
+
+
+
+      <div class="item">
+        <img src="drinks img/maaza.jpg" alt="maaza">
+        <p>maaza 1ltr</p>
+        <p>₹50</p>
+        <button class="btn" onclick="addToCart('limca 1ltr', 50)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/mirinda cane.jpg" alt="mirinda">
+        <p>mirinda 250ml</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('mirinda 250ml', 40)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/mirinda.jpg" alt="mirinda">
+        <p>mirinda 1ltr</p>
+        <p>₹50</p>
+        <button class="btn" onclick="addToCart('mirinda 1ltr', 50)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/mountain dew.jpg" alt="mountain dew">
+        <p>dew 750ml</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('dew 750ml', 40)">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <img src="drinks img/nimbooz.jpg" alt="nimbooz">
+        <p>nimbooz 750ml</p>
+        <p>₹40</p>
+        <button class="btn" onclick="addToCart('Frooti 750ml', 40)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/pepsi.jpg" alt="pepsi">
+        <p>pepsi 1ltr</p>
+        <p>₹50</p>
+        <button class="btn" onclick="addToCart('pepsi 1ltr', 50)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="drinks img/raw pomegranate juice.jpg" alt="raw">
+        <p>raw pomegranate 250ml</p>
+        <p>₹35</p>
+        <button class="btn" onclick="addToCart('raw pomegranate 250ml', 35)">Add to Cart</button>
+      </div>
+
+    <div class="item">
+      <img src="drinks img/real mixed fruit.jpg" alt="mixed fruit">
+      <p>mixed fruit 500ml</p>
+      <p>₹40</p>
+      <button class="btn" onclick="addToCart('mixed fruit 500ml', 40)">Add to Cart</button>
+    </div>
+  </div>
+
+  <script>
+    function addToCart(name, price, quantity) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push({name, price, quantity});
+        localStorage.setItem('cart', JSON.stringify(cart));
+        alert('Product Added to Cart!');
+    }
+    </script>
+
+</body>
+</html>

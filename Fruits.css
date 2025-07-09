@@ -1,0 +1,1601 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.apple{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: pink;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*div 2 bnana*/
+
+
+
+.Banana{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*kiwi div*/
+
+
+
+.Kiwi{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*strawberries div*/
+
+.strawberry{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*avacado dic*/
+
+
+.avacado{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*pomegranate*/
+
+
+.pomegranate{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*grapes*/
+
+.grapes{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*----guava*/
+
+.guava{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*orange*/
+
+.orange{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+
+/*cherries*/
+
+.cherries{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+
+
+
+
+/*mango*/
+
+.mango{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*custard*/
+
+.custard{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*blackthorn*/
+
+.blackthorn{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+/*papaya*/
+
+
+.papaya{
+        background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+
+
+
+/*plums*/
+
+
+.plums{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*raspberry*/
+
+
+.raspberry{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*redberry*/
+
+
+.redberry{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*blueberry*/
+
+
+.blueberry{
+        background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*watermelon*/
+
+
+.watermelon{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*greenapple*/
+
+
+.greenapple{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*pineapple*/
+
+
+.pineapple{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*dragonfruuit*/
+
+
+.dragonfruit{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*litchi*/
+
+
+.litchi{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*coconut*/
+
+
+.coconut{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

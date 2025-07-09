@@ -1,0 +1,1306 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.potato{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*div 2 cabage*/
+
+
+
+.cabage{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*tomato div*/
+
+
+
+.tomato{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*raddish div*/
+
+.raddish{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*redcarrot dic*/
+
+
+.redcarrot{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*ladyfinger*/
+
+
+.ladyfinger{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*orangecarrot*/
+
+.orangecarrot{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*----cauliflower*/
+
+.cauliflower{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+/*greencauliflower*/
+
+.greencauliflower{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+
+/*pumpkin*/
+
+.pumpkin{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+
+
+
+
+/*onion*/
+
+.onion{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*garlic*/
+
+.garlic{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+/*beetroot*/
+
+.beetroot{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+/*butternut squash*/
+
+
+.butternutsquash{
+        background-color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 18px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px gray;
+    
+
+
+
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.price{
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height:28px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    size: 50px;
+}
+
+
+
+
+
+
+/*turnip*/
+
+
+.turnip{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*lettuce*/
+
+
+.lettuce{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*sweet potato*/
+
+
+.sweetpotato{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*corn*/
+
+
+.corn{
+        background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*ginger*/
+
+
+.ginger{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*peas*/
+
+
+.peas{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*zucchini*/
+
+
+.zucchini{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+/*yellow capsicum*/
+
+
+.yellowcapsicum{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*beans*/
+
+
+.beans{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+/*arbi*/
+
+
+.arbi{
+    background-color: white;
+height: 200px;
+width: 150px;
+border-radius: 10px;
+margin: 18px;
+border: solid 1px rgb(0, 0, 0);
+box-shadow: 3px 3px gray;
+
+
+
+
+}
+img{
+width: 150px;
+height: 120px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.price{
+width: 150px;
+height: 10px;
+background-color: white;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 10px;
+padding-top: 2px;
+}
+button{
+margin-top: 8px;
+margin-left: 32px;
+margin-right: 32px;
+height:28px;
+width: 80px;
+border-radius: 5px;
+
+
+}
+button:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+i{
+size: 50px;
+}
+
+
+
+
+
+
+
+
+

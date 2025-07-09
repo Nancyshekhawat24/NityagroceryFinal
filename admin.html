@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    margin: 0;
+    background-image: url(bgadmin.jpg );
+    background-size: cover;
+    
+
+    
+}
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 300px;
+    width:400px;
+}
+h2 {
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    font-size: 14px;
+    color: #555;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-login {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+.btn-register {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+    </style>
+   
+</head>
+<body>
+
+    
+
+    <div class="login-container">
+        <h2> Admin Login</h2>
+        <form id="loginForm" onsubmit="return validateLogin()">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password"> Admin Password:</label>
+                <input type="password" id="password" name="password" required>
+                <span id="errorMsg" class="error"></span>
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="btn btn-login">Login</button>
+                <a href="/register" class="btn btn-register">Forgot Password</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function validateLogin() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var errorMsg = document.getElementById("errorMsg");
+        
+            // Yahan apna correct username/password daal
+            var correctUsername = "raman";
+            var correctPassword = "12345";
+        
+            if (username === correctUsername && password === correctPassword) {
+                // Sahi password, dusre page pe bhejna
+                window.location.href = "productmgmt.html"; // Apna page ka naam daal yahan
+                return false; // Form submit nahi karna direct, JavaScript handle karega
+            } else {
+                
+                // Galat password, error message dikhana
+                errorMsg.textContent = "Invalid username or password!";
+                return false; // Form submit roko
+            }
+        }
+        </script>
+
+</body>
+
+
+</html>
+
+
+</body>
+</html>

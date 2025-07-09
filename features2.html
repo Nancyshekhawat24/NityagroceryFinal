@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Delivery - Nitya Grocery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3fff3;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(to right, #28a745, #6cc070);
+      padding: 30px 20px;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      animation: fadeInDown 1s ease;
+    }
+
+    .tracker {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .step {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-bottom: 40px;
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: slideIn 0.8s ease forwards;
+    }
+
+    .step:nth-child(2) { animation-delay: 0.4s; }
+    .step:nth-child(3) { animation-delay: 0.8s; }
+    .step:nth-child(4) { animation-delay: 1.2s; }
+    .step:nth-child(5) { animation-delay: 1.6s; }
+
+    .circle {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-color: #ccc;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .active .circle {
+      background-color: #28a745;
+    }
+
+    .label {
+      margin-left: 20px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .line {
+      position: absolute;
+      width: 4px;
+      height: 40px;
+      background-color: #ccc;
+      top: 45px;
+      left: 18px;
+      z-index: -1;
+    }
+
+    .completed .line {
+      background-color: #28a745;
+    }
+
+    .back-home {
+      display: block;
+      margin: 50px auto 0;
+      padding: 14px 28px;
+      font-size: 18px;
+      text-align: center;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .back-home:hover {
+      background-color: #218838;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @media (max-width: 600px) {
+      .label {
+        font-size: 16px;
+      }
+
+      .circle {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Track Your Free Delivery</h1>
+  </header>
+
+  <div class="tracker">
+    <div class="step active">
+      <div class="circle">1</div>
+      <div class="label">Order Placed</div>
+      <div class="line"></div>
+    </div>
+    <div class="step">
+      <div class="circle">2</div>
+      <div class="label">Packed</div>
+      <div class="line"></div>
+    </div>
+    <div class="step">
+      <div class="circle">3</div>
+      <div class="label">Shipped</div>
+      <div class="line"></div>
+    </div>
+    <div class="step">
+      <div class="circle">4</div>
+      <div class="label">Out for Delivery</div>
+      <div class="line"></div>
+    </div>
+    <div class="step">
+      <div class="circle">5</div>
+      <div class="label">Delivered</div>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-home">Back to Home</a>
+
+  <script>
+    let currentStep = 1;
+    const steps = document.querySelectorAll('.step');
+
+    function updateProgress() {
+      if (currentStep < steps.length) {
+        steps[currentStep].classList.add('active');
+        steps[currentStep - 1].classList.add('completed');
+        currentStep++;
+        setTimeout(updateProgress, 2000);
+      }
+    }
+
+    setTimeout(updateProgress, 2000);
+  </script>
+
+</body>
+</html>
